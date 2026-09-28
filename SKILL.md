@@ -1,5 +1,5 @@
 ---
-name: easyeda-pro-format-skill
+name: easyeda-format-skill
 description: >-
   Generate EasyEDA Pro format data for schematic/PCB/symbol/footprint.
   Reads type definitions and JSON schemas, outputs to format/{type}_{timestamp}.txt.

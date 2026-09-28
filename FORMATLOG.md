@@ -1,8 +1,8 @@
 # 嘉立创EDA Pro 格式更新日志 / Format Update Log
 
-本文件总结嘉立创EDA Pro 各代文件格式的变化，当前重点为 **V3**（lceda-pro-file-format-v3，2025.10.21 规范）与 **V4**（本仓库 `easyeda-pro-format-skill` 所载格式）的差异。后续每次格式大变更都会补充新条目（最新在最上）。
+本文件总结嘉立创EDA Pro 各代文件格式的变化，当前重点为 **V3**（lceda-pro-file-format-v3，2025.10.21 规范）与 **V4**（本仓库 `easyeda-format-skill` 所载格式）的差异。后续每次格式大变更都会补充新条目（最新在最上）。
 
-> This file summarizes the file-format changes between generations of EasyEDA Pro (JLCEDA Pro), focusing on the differences between **V3** (the lceda-pro-file-format-v3 spec, 2025.10.21) and **V4** (the format captured in this repository, `easyeda-pro-format-skill`). A new entry will be added here (newest first) for every major format change.
+> This file summarizes the file-format changes between generations of EasyEDA Pro (JLCEDA Pro), focusing on the differences between **V3** (the lceda-pro-file-format-v3 spec, 2025.10.21) and **V4** (the format captured in this repository, `easyeda-format-skill`). A new entry will be added here (newest first) for every major format change.
 >
 > V3 资料来源 / V3 source: easyeda-api-skill `format/` 文档（index.md、project/、schematic/、pcb/）；V4 依据 / V4 basis: 本仓库 SKILL.md、documents/、primitives/、schemas/、examples/。
 

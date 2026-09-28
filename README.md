@@ -20,7 +20,7 @@ It generates schematic / PCB / symbol / footprint data conforming to the EasyEDA
 ## Directory Structure
 
 ```
-easyeda-pro-format-skill/
+easyeda-format-skill/
 ├── SKILL.md            # Main skill document (core workflow, line data format, LLM workflow)
 ├── README.md           # This file
 ├── types-index.md      # Index of all primitive types (Chinese name → type name → document path)
@@ -44,37 +44,37 @@ Clone this repository into the Claude Code personal skills directory `~/.claude/
 
 ```bash
 # macOS / Linux
-git clone https://github.com/easyeda/easyeda-pro-format-skill.git \
-  ~/.claude/skills/easyeda-pro-format-skill
+git clone https://github.com/easyeda/easyeda-format-skill.git \
+  ~/.claude/skills/easyeda-format-skill
 
 # Windows (PowerShell)
-git clone https://github.com/easyeda/easyeda-pro-format-skill.git `
-  "$env:USERPROFILE\.claude\skills\easyeda-pro-format-skill"
+git clone https://github.com/easyeda/easyeda-format-skill.git `
+  "$env:USERPROFILE\.claude\skills\easyeda-format-skill"
 ```
 
-> On Windows this corresponds to `C:\Users\<username>\.claude\skills\easyeda-pro-format-skill`
+> On Windows this corresponds to `C:\Users\<username>\.claude\skills\easyeda-format-skill`
 
 ### Option 2: Project-level installation (current project only)
 
 Clone into `.claude/skills/` under the project root:
 
 ```bash
-git clone https://github.com/easyeda/easyeda-pro-format-skill.git \
-  <your-project>/.claude/skills/easyeda-pro-format-skill
+git clone https://github.com/easyeda/easyeda-format-skill.git \
+  <your-project>/.claude/skills/easyeda-format-skill
 ```
 
 ### Option 3: Manual copy
 
-If you downloaded the repository (e.g. as a zip archive), simply copy the whole `easyeda-pro-format-skill` folder into either of the skills directories above.
+If you downloaded the repository (e.g. as a zip archive), simply copy the whole `easyeda-format-skill` folder into either of the skills directories above.
 
-> Note: the directory name must match the skill name (`easyeda-pro-format-skill`), and `SKILL.md` must be located at the root of that directory.
+> Note: the directory name must match the skill name (`easyeda-format-skill`), and `SKILL.md` must be located at the root of that directory.
 
 ### Install validation dependencies
 
 The validation script depends on `ajv` and `ajv-formats`. Run inside the skill directory:
 
 ```bash
-cd ~/.claude/skills/easyeda-pro-format-skill
+cd ~/.claude/skills/easyeda-format-skill
 npm install ajv ajv-formats
 ```
 
@@ -89,7 +89,7 @@ After restarting the Claude Code session, type a trigger phrase in the conversat
 Or use the slash command:
 
 ```
-/easyeda-pro-format-skill 过孔
+/easyeda-format-skill 过孔
 ```
 
 You can also run the validation script directly to confirm the dependencies work:
@@ -171,7 +171,7 @@ The generated line format is `{type, id, ticket}||{data}`. Every document must s
 ## 目录结构
 
 ```
-easyeda-pro-format-skill/
+easyeda-format-skill/
 ├── SKILL.md            # Skill 主文档（核心流程、行数据格式、LLM 工作流）
 ├── README.md           # 本文件
 ├── types-index.md      # 全部图元类型索引（中文名 → 类型名 → 文档层路径）
@@ -195,37 +195,37 @@ easyeda-pro-format-skill/
 
 ```bash
 # macOS / Linux
-git clone https://github.com/easyeda/easyeda-pro-format-skill.git \
-  ~/.claude/skills/easyeda-pro-format-skill
+git clone https://github.com/easyeda/easyeda-format-skill.git \
+  ~/.claude/skills/easyeda-format-skill
 
 # Windows (PowerShell)
-git clone https://github.com/easyeda/easyeda-pro-format-skill.git `
-  "$env:USERPROFILE\.claude\skills\easyeda-pro-format-skill"
+git clone https://github.com/easyeda/easyeda-format-skill.git `
+  "$env:USERPROFILE\.claude\skills\easyeda-format-skill"
 ```
 
-> Windows 下对应路径为 `C:\Users\<用户名>\.claude\skills\easyeda-pro-format-skill`
+> Windows 下对应路径为 `C:\Users\<用户名>\.claude\skills\easyeda-format-skill`
 
 ### 方式二：项目级安装（仅当前项目可用）
 
 克隆到项目根目录的 `.claude/skills/` 下：
 
 ```bash
-git clone https://github.com/easyeda/easyeda-pro-format-skill.git \
-  <你的项目>/.claude/skills/easyeda-pro-format-skill
+git clone https://github.com/easyeda/easyeda-format-skill.git \
+  <你的项目>/.claude/skills/easyeda-format-skill
 ```
 
 ### 方式三：手动复制
 
-如果已下载本仓库（如 zip 包），直接将整个 `easyeda-pro-format-skill` 文件夹复制到上述任一 skills 目录即可。
+如果已下载本仓库（如 zip 包），直接将整个 `easyeda-format-skill` 文件夹复制到上述任一 skills 目录即可。
 
-> 注意：目录名需与技能名一致，即 `easyeda-pro-format-skill`，且 `SKILL.md` 必须位于该目录根部。
+> 注意：目录名需与技能名一致，即 `easyeda-format-skill`，且 `SKILL.md` 必须位于该目录根部。
 
 ### 安装验证依赖
 
 验证脚本依赖 `ajv` 和 `ajv-formats`，在技能目录内执行：
 
 ```bash
-cd ~/.claude/skills/easyeda-pro-format-skill
+cd ~/.claude/skills/easyeda-format-skill
 npm install ajv ajv-formats
 ```
 
@@ -240,7 +240,7 @@ npm install ajv ajv-formats
 或使用斜杠命令：
 
 ```
-/easyeda-pro-format-skill 过孔
+/easyeda-format-skill 过孔
 ```
 
 也可以直接运行验证脚本确认依赖正常：
